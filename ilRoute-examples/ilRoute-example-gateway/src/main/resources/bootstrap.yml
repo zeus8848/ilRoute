@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.11.11:8848
+      config:
+        group: g1
+        namespace: 123456789
+        file-extension: yaml
+        prefix: ${spring.application.name}
+  profiles:
+    active: dev
