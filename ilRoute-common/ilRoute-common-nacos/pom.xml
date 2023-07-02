@@ -3,13 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ilRoute-plugins</artifactId>
+        <artifactId>ilRoute-common</artifactId>
         <groupId>com.github</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ilRoute-plugin-starter-gateway</artifactId>
+    <artifactId>ilRoute-common-nacos</artifactId>
+
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -18,21 +19,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+
+
+        <dependency>
             <groupId>com.github</groupId>
-            <artifactId>ilRoute-common-nacos</artifactId>
+            <artifactId>ilRoute-common</artifactId>
             <version>${revision}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-gateway</artifactId>
-        </dependency>
-
-        <!-- Feign Client for loadBalancing -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
-        </dependency>
     </dependencies>
-
 </project>

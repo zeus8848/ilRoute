@@ -1,4 +1,9 @@
 spring:
+  ilRoute:
+    gateway:
+      dynamic:
+        route:
+          enable: true
   application:
     name: gateway
   cloud:

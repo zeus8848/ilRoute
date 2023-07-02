@@ -3,11 +3,10 @@ package com.github.ilRoute.operation;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.github.ilRoute.nacos.operation.NacosProcesser;
-import com.github.ilRoute.nacos.strategy.DynamicRouteStrategy;
+import com.github.ilRoute.strategy.DynamicRouteStrategy;
 import com.github.ilRoute.util.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteDefinition;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.util.List;

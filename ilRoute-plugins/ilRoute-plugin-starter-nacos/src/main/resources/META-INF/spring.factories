@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.github.ilRoute.configuration.IlRouteNacosConfiguration
+    com.github.ilRoute.configuration.IlRouteNacosConfiguration,\
+    com.github.ilRoute.configuration.NacosConfigServiceConfiguration

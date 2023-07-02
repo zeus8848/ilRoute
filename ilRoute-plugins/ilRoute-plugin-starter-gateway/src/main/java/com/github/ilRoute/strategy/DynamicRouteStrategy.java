@@ -1,4 +1,4 @@
-package com.github.ilRoute.nacos.strategy;
+package com.github.ilRoute.strategy;
 
 import org.springframework.cloud.gateway.route.RouteDefinition;
 

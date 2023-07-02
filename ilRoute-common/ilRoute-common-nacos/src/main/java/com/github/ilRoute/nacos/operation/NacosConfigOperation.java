@@ -13,9 +13,10 @@ import java.util.concurrent.Executor;
  * @author lwx
  */
 public class NacosConfigOperation {
-    @Autowired
+
+    @Autowired(required = false)
     private ConfigService configService;
-    @Autowired
+    @Autowired(required = false)
     private NacosConfigProperty nacosConfigProperty;
 
 

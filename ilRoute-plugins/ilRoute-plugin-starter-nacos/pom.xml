@@ -19,8 +19,16 @@
     <dependencies>
         <dependency>
             <groupId>com.github</groupId>
-            <artifactId>ilRoute-common</artifactId>
+            <artifactId>ilRoute-common-nacos</artifactId>
             <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
     </dependencies>
 
