@@ -14,6 +14,7 @@
     <modules>
         <module>ilRoute-example-gateway</module>
         <module>ilRoute-example-service1</module>
+        <module>ilRoute-example-service2</module>
     </modules>
 
     <properties>

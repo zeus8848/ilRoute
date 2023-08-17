@@ -7,6 +7,9 @@ spring:
   application:
     name: gateway
   cloud:
+    loadbalancer:
+      nacos:
+        enabled: true
     nacos:
       server-addr: 192.168.11.11:8848
       config:

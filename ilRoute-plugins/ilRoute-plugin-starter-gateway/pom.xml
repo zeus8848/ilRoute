@@ -33,6 +33,14 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon -->
+        <!--<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-
+            cloud-starter-netflix-ribbon</artifactId>
+            <version>2.2.10.RELEASE</version>
+        </dependency>-->
+
     </dependencies>
 
 </project>
